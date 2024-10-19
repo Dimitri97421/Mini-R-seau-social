@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "profilePic": "https://via.placeholder.com/150",
+        "messages": [
+            {
+                "timestamp": "2024-10-19T10:00:00Z",
+                "content": "Salut, tu arrives quand ?"
+            },
+            {
+                "timestamp": "2024-10-19T10:01:00Z",
+                "content": "Je suis en route, je serai bientôt là."
+            }
+        ],
+        "lastMessage": "Je suis en route, je serai bientôt là."
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "profilePic": "https://via.placeholder.com/150",
+        "messages": [
+            {
+                "timestamp": "2024-10-18T15:30:00Z",
+                "content": "Prêt pour ton entretien ?"
+            }
+        ],
+        "lastMessage": "Prêt pour ton entretien ?"
+    }
+]
