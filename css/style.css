@@ -42,3 +42,77 @@ nav ul li a:hover {
     width: 80%;
     max-width: 800px;
 }
+
+/*Style de la page d'accueil*/
+.feed-post {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #babecc, -4px -4px 8px #ffffff;
+}
+
+.feed-post img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Style pour l'image d'un post en plein écran*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: red;
+}
+
+/* Style pour les particules */
+.particle-container {
+    position: relative;
+    overflow: visible;
+}
+
+.particle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}

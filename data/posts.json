@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title": "Un pigeon héroïque",
+        "content": "Un pigeon nommé Cher Ami a reçu une médaille d'honneur en 1918 pour avoir livré un message vital pendant la Première Guerre mondiale, sauvant ainsi près de 200 soldats.",
+        "image": "https://via.placeholder.com/500"
+    },
+    {
+        "id": 2,
+        "title": "Lumières célestes",
+        "content": "Les aurores boréales résultent de l'interaction entre les particules solaires et le champ magnétique terrestre, créant des lumières colorées qui dansent dans le ciel, particulièrement près des pôles."
+    }
+]
