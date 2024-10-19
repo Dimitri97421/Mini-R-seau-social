@@ -1,0 +1,44 @@
+body {
+    background-color: #e0e5ec;
+    font-family: Arial, sans-serif;
+}
+
+/* Style du menu de navigation */
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 4px 4px 8px #babecc, -4px -4px 8px #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Style principal */
+.feed-container, .messagerie-container, .amis-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 800px;
+}
