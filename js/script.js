@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const feedContainer = document.getElementById('feed');
 
-    // Simuler les posts via JSON
+    // Simule les posts via JSON
     fetch('data/posts.json')
     .then(response => response.json())
     .then(posts => {
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="comments-section">
                     <h3>Commentaires</h3>
                     <div class="comments-list"></div>
-                    <textarea class="new-comment" placeholder="Ajouter un commentaire"></textarea>
+                    <textarea class="new-comment" placeholder="Ajouter un commentaire" name="commentaire"></textarea>
                     <button class="add-comment-btn">Commenter</button>
                 </div>
             `;
@@ -115,44 +115,44 @@ document.addEventListener('DOMContentLoaded', () => {
         const commentDiv = document.createElement('div');
         commentDiv.classList.add('comment');
         if (isReply) {
-            commentDiv.classList.add('reply'); // Différencier visuellement les réponses
+            commentDiv.classList.add('reply');
         }
 
         commentDiv.innerHTML = `
             <p>${commentText}</p>
             <button class="reply-btn" style="display: none;">Répondre</button>
             <div class="reply-section" style="display: none;">
-                <textarea class="new-reply" placeholder="Répondre..."></textarea>
+                <textarea class="new-reply" placeholder="Répondre"></textarea>
                 <button class="add-reply-btn">Envoyer</button>
             </div>
             <div class="replies-list"></div>
         `;
 
-        // Afficher le bouton "Répondre" après avoir ajouté un commentaire
+        // Affiche le bouton "Répondre" après avoir ajouté un commentaire
         const replyBtn = commentDiv.querySelector('.reply-btn');
         replyBtn.style.display = 'block';  // Le bouton "Répondre" devient visible
 
-        // Gérer la réponse à un commentaire
+        // Gére la réponse à un commentaire
         const replySection = commentDiv.querySelector('.reply-section');
         const repliesList = commentDiv.querySelector('.replies-list');
         const addReplyBtn = commentDiv.querySelector('.add-reply-btn');
         const newReplyTextArea = commentDiv.querySelector('.new-reply');
 
-        // Afficher/Cacher la section de réponse
+        // Affiche/Cache la section de réponse
         replyBtn.addEventListener('click', () => {
             replySection.style.display = replySection.style.display === 'none' ? 'block' : 'none';
         });
 
-        // Ajouter une réponse
+        // Ajoute une réponse
         addReplyBtn.addEventListener('click', () => {
             const replyText = newReplyTextArea.value.trim();
             if (replyText) {
                 addComment(repliesList, replyText, true);
-                newReplyTextArea.value = ''; // Réinitialiser le champ
+                newReplyTextArea.value = ''; // Réinitialise le champ
             }
         });
 
-        // Ajouter le commentaire ou la réponse à la liste
+        // Ajoute le commentaire ou la réponse à la liste
         commentsList.appendChild(commentDiv);
     }
 

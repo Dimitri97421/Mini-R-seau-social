@@ -5,11 +5,29 @@
     margin-bottom: 15px;
     border-radius: 10px;
     border: 1px solid #babecc;
+    box-shadow: 4px 4px 8px #babecc, -4px -4px 8px #ffffff;
 }
 
 .feed-post img{
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+}
+
+.reactions button{
+    padding: 5px;
+    width: 55px;
+    border-radius: 10px;
+    border: 1px solid #babecc;
+    cursor: pointer;
+}
+
+.comments-section button{
+    padding: 5px;
+    border: 1px solid #babecc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 /* Style pour l'image d'un post en plein écran*/

@@ -20,14 +20,23 @@
     <!-- Contenu de la page Liste d'Amis -->
     <div class="amis-container">
         <h1>Liste d'Amis</h1>
-        <ul id="friends-list">
-            <li draggable="true">Alice Dupont</li>
-            <li draggable="true">Bob Martin</li>
-            <li draggable="true">Charlie Durand</li>
+        
+        <!-- Champ de filtrage -->
+        <input type="text" id="filter-input" placeholder="Filtrer par nom ou prénom">
+
+        <ul id="friends-list" class="friends-list">
+            <li draggable="true">
+                <a href="messagerie.html">Alice Opéidémerveilles</a>
+            </li>
+            <li draggable="true">
+                <a href="messagerie.html">Bob Léponge</a>
+            </li>
+            <li draggable="true">
+                <a href="messagerie.html">Charlie Bucket</a>
+            </li>
         </ul>
     </div>
 
     <script src="./js/amis.js"></script>
 </body>
 </html>
-

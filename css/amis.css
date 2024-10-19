@@ -1,0 +1,28 @@
+/*Style pour la page de liste d'amis*/
+
+.amis-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.amis-container input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #babecc;
+}
+
+.friends-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+}
+
+.friends-list li{
+    width: fit-content;
+    border: 1px solid #babecc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 8px #babecc, -4px -4px 8px #ffffff;
+}

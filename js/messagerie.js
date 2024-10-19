@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const msgDiv = document.createElement('div');
             const date = new Date(msg.timestamp);
             msgDiv.innerHTML = `
-                <p><strong>${date.toLocaleString()}:</strong> ${msg.content}</p>
+                <p><strong>${date.toLocaleString()} :</strong> ${msg.content}</p>
             `;
             messageDetailsContainer.appendChild(msgDiv);
         });
