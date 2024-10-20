@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Alice",
-        "profilePic": "../images/alice.jpg",
+        "profilePic": "images/alice.jpg",
         "messages": [
             {
                 "timestamp": "2024-10-19T10:00:00Z",
@@ -18,7 +18,7 @@
     {
         "id": 2,
         "name": "Bob",
-        "profilePic": "../images/bob.jpg",
+        "profilePic": "images/bob.jpg",
         "messages": [
             {
                 "timestamp": "2024-10-18T15:30:00Z",
