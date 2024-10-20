@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Crée le HTML pour le post
             postDiv.innerHTML = `
                 <h2>${post.title}</h2>
-                ${post.image ? `<img src="${post.image}" alt="Post Image" class="post-image" style="cursor: pointer;">` : ''}
+                ${post.image ? `<img src="${post.image}" alt="Photo de Cher Ami le pigeon héroïque" class="post-image" style="cursor: pointer;">` : ''}
                 <p>${post.content}</p>
                 <div class="reactions">
                     <button class="like-btn">Like</button>

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Alice",
-        "profilePic": "https://via.placeholder.com/150",
+        "profilePic": "../images/alice.jpg",
         "messages": [
             {
                 "timestamp": "2024-10-19T10:00:00Z",
@@ -10,21 +10,21 @@
             },
             {
                 "timestamp": "2024-10-19T10:01:00Z",
-                "content": "J'ai hâte de te revoir !"
+                "content": "Tu ne croiras jamais ce que j'ai vu : des lapins qui parlent et des cartes qui marchent !"
             }
         ],
-        "lastMessage": "J'ai hâte de te revoir !"
+        "lastMessage": "Tu ne croiras jamais ce que j'ai vu : des lapins qui parlent et des cartes qui marchent !"
     },
     {
         "id": 2,
         "name": "Bob",
-        "profilePic": "https://via.placeholder.com/150",
+        "profilePic": "../images/bob.jpg",
         "messages": [
             {
                 "timestamp": "2024-10-18T15:30:00Z",
-                "content": "Prêt pour ton entretien ?"
+                "content": "Après ton entretien, on file direct au Crabe Croustillant !"
             }
         ],
-        "lastMessage": "Prêt pour ton entretien ?"
+        "lastMessage": "Après ton entretien, on file direct au Crabe Croustillant !"
     }
 ]
